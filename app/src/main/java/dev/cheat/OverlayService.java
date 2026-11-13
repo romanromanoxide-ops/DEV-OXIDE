@@ -142,7 +142,7 @@ public class OverlayService extends Service {
     }
     private void addInfo(String s) {
         TextView t=text(s,13,0xFFD0D0D0); t.setPadding(dp(8),dp(9),dp(8),dp(9));
-        t.setBackgroundColor(0x332FFFFFF); content.addView(t);
+        t.setBackgroundColor(0x33FFFFFF); content.addView(t);
         LinearLayout.LayoutParams p=(LinearLayout.LayoutParams)t.getLayoutParams(); p.setMargins(0,dp(3),0,dp(3)); t.setLayoutParams(p);
     }
     private void addSwitch(String s, boolean checked) {
